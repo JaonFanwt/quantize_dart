@@ -9,7 +9,7 @@ void main() {
   final palette = [[204,204,204], [208,212,212], [188,196,188], [212,204,196]];
   print(palette);
 
-  final palette2 = colorMap.map(arrayOfPixels[0]);
+  final palette2 = colorMap?.map(arrayOfPixels[0]);
   print(palette2);
 
 }
